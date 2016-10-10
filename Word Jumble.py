@@ -3,14 +3,12 @@ import random
 cars = ["BENTLEY", "WRANGLER", "VOLVO", "CHEVY", "TOYOTA", "DODGE", "INFINITI", "ACURA", "HONDA", "AUDI", "FERRARI", "ASTON MARTIN", "NISSAN", "PORSCHE", "KIA MOTORS", "TESLA", "ROLLS ROYCE", "SAAB", ]
 
 
-
 selection = random.choice(cars)
 answer = selection
-print selection
+#print selection
 
 jumble = list(selection)
-print jumble
-
+#print jumble
 
 
 for current_index in range(len(jumble)):
